@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">우리동네케어</string>
+    <!-- web address -->
+    <string name="web_address">https://wooridongnecare.co.kr/</string>
+
+
+    <!-- Intro -->
+    <string name="action_start">시작하기</string>
+    <string name="action_to_join">가입하기</string>
+</resources>

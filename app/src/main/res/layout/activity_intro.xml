@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager_intro"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.pm10.library.LineIndicator
+        android:id="@+id/tab_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:elevation="1dp"
+        app:p_gap="10dp"
+        app:p_lineHeight="4dp"
+        app:p_lineWidth="70dp"
+        app:p_strokeWidth="0dp"
+        app:p_defaultColor="@color/tab_bar"
+        app:p_selectedColor="@color/tab_bar_selected"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:targetApi="lollipop"
+        tools:ignore="MissingClass" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
